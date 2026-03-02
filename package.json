@@ -70,6 +70,7 @@
 		"@libsql/client": "^0.14.0",
 		"@lucia-auth/adapter-drizzle": "^1.1.0",
 		"@tailwindcss/typography": "^0.5.15",
+		"@sveltejs/adapter-vercel": "^6.3.0",
 		"arctic": "^2.0.1",
 		"dotenv": "^16.4.5",
 		"drizzle-orm": "^0.35.3",
