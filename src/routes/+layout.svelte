@@ -74,6 +74,23 @@
 			https://developer.twitter.com/en/docs/twitter-for-websites/cards/guides/getting-started
 	  -->
 	<meta name="twitter:card" content="summary_large_image" />
+
+	<!-- MailerLite -->
+	<script>
+		function ml_webform_success_37076346() {
+		var $ = ml_jQuery || jQuery;
+		$('.ml-subscribe-form-37076346 .row-success').show();
+		$('.ml-subscribe-form-37076346 .row-form').hide();
+		}
+	</script>
+	
+	<script src="https://groot.mailerlite.com/js/w/webforms.min.js?v95037e5bac78f29ed026832ca21a7c7b" type="text/javascript"></script>
+
+	<script>
+		fetch("https://assets.mailerlite.com/jsonp/1122968/forms/179231341580126053/takel")
+	</script>
+	<!-- End MailerLite -->
+
 </svelte:head>
 
 {@render children()}

@@ -4,16 +4,17 @@
 	import { page } from '$app/stores';
 	import { buttonVariants } from './ui/button';
 	import LogoutButton from './login/LogoutButton.svelte';
-	import { Ship } from 'lucide-svelte';
+	import { LeafyGreen } from 'lucide-svelte';
+	import MainMenu from '$lib/components/MainMenu.svelte';
 </script>
 
 <header
-	class="container border-border/40 bg-background/95 supports-[backdrop-filter]:bg-background/60 sticky top-0 z-50 w-full border-b backdrop-blur"
+	class="bg-background/95 supports-[backdrop-filter]:bg-background/90 sticky top-0 z-50 w-full backdrop-blur"
 >
-	<div class="flex h-14 max-w-screen-2xl items-center">
+	<div class="container flex h-14 items-center">
 		<div class="mr-4 flex justify-between w-full">
 			<a href="/" class="mr-6 flex items-center space-x-2">
-				<Ship class="h-8 w-8" />
+				<LeafyGreen class="h-8 w-8" />
 				<span class="font-bold inline-block">{PUBLIC_PROJECT_NAME}</span></a
 			>
 			<div>

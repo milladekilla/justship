@@ -1,0 +1,14 @@
+# Docker
+Dockerfile
+.dockerignore
+docker-compose.yml
+node_modules
+.svelte-kit
+build
+.env
+.env.*
+! .env.example
+.DS_Store
+coverage
+.npm
+public
