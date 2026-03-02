@@ -17,13 +17,13 @@
 				<LeafyGreen class="h-8 w-8" />
 				<span class="font-bold inline-block">{PUBLIC_PROJECT_NAME}</span></a
 			>
-			<div>
+			<!-- <div>
 				{#if $page.data.user}
 					<LogoutButton />
 				{:else}
 					<a href="/login" class={buttonVariants({ variant: 'ghost' })}>Sign in</a>
 				{/if}
-			</div>
+			</div> -->
 		</div>
 	</div>
 </header>
